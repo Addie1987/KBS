@@ -198,12 +198,7 @@ body:before {
 /* ---------------------------------------------------- */
 
 /* header */
-.replace {
-  position: fixed;
-  width: 100%;
-  top: 0;
-}
-
+/* header */
 .header {
   position: relative;
   max-width: 720px;
@@ -218,6 +213,7 @@ body:before {
   margin-right: var(--margin-right);
   display: var(--display);
   justify-content: space-between;
+  align-items: var(--align-items);
   background-color: var(--background-color);
   padding: 20px 0;
 }
@@ -249,6 +245,10 @@ body:before {
   margin: 0 auto;
 }
 
+.logo_img_content a {
+  display: inline-block;
+}
+
 .logo_img_content a img {
   width: 100%;
   height: auto;
@@ -261,6 +261,10 @@ body:before {
 
 .download_content {
   margin: 0 auto;
+}
+
+.download_content a {
+  display: inline-block;
 }
 
 .download_content a img {
@@ -355,7 +359,7 @@ body:before {
   display: var(--display);
   justify-content: var(--align-items);
   flex-wrap: var(--flex-wrap);
-  padding: 60px 60px 60px 60px;
+  padding: 60px 20px 60px 20px;
 }
 
 .footer_text {

@@ -212,6 +212,7 @@ body:before {
   margin-right: var(--margin-right);
   display: var(--display);
   justify-content: space-between;
+  align-items: var(--align-items);
   background-color: var(--background-color);
   padding: 20px 0;
 }
@@ -321,13 +322,13 @@ body:before {
 }
 
 .header_rwd_content a {
-  width: 46px;
-  height: 46px;
-  display: inline-block;
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
 
 .header_rwd_content a img {
-  width: 100%;
+  width: 15%;
   height: auto;
 }
 
@@ -542,7 +543,7 @@ body:before {
   display: var(--display);
   justify-content: var(--align-items);
   flex-wrap: var(--flex-wrap);
-  padding: 60px 60px 60px 60px;
+  padding: 60px 20px 60px 20px;
 }
 
 .footer_text {
