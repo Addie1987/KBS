@@ -141,7 +141,6 @@ li,
 h1,
 label,
 a {
-  font-family: "Roboto", sans-serif, "Helvetica", "微軟正黑";
   font-weight: 400;
   font-size: 18px;
 }
@@ -193,7 +192,7 @@ body:before {
   left: 0;
   opacity: .6;
   background: url(../images/basemap.png);
-  background-size: contain;
+  background-size: auto;
 }
 
 /* ---------------------------------------------------- */
