@@ -253,6 +253,15 @@ body:before {
   height: auto;
 }
 
+.header_buttom {
+  position: relative;
+}
+
+.header_buttom_content {
+  margin: 0 auto;
+  display: var(--display);
+}
+
 .download {
   position: relative;
   margin-left: 20px;
@@ -286,9 +295,53 @@ body:before {
 }
 
 @media screen and (max-width: 500px) {
+  .header_buttom_content {
+    flex-wrap: var(--flex-wrap);
+    justify-content: var(--justify-content);
+  }
+
+   .header_buttom_content .header_rwd_teaching {
+    margin-right: 0;
+    margin-left: 0;
+    width: 80%;
+  }
+
+  .header_rwd_game {
+    width: 20%;
+    margin-right: 0;
+  }
+
+  .logo_content {
+    flex-wrap: var(--flex-wrap);
+    line-height: 2;
+  }
+
+  .logo {
+    margin-left: 0;
+  }
+
+  .logo_img_content {
+    text-align: center;
+  }
+
+  .logo_img_content a img {
+    width: 50%;
+  }
+
+  .logo_img {
+    width: 100%;
+  }
+
+  .download {
+    margin-left: 0;
+    margin-right: 0;
+    width: 80%;
+  }
+
   .download_content a img {
     width: 100%;
   }
+  
 }
 
 /* ---------------------------------------------------- */
