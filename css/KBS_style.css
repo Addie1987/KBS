@@ -328,7 +328,7 @@ body:before {
 }
 
 .header_rwd_content a img {
-  width: 15%;
+  width: 100%;
   height: auto;
 }
 
