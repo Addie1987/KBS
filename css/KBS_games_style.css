@@ -198,7 +198,6 @@ body:before {
 /* ---------------------------------------------------- */
 
 /* header */
-/* header */
 .header {
   position: relative;
   max-width: 720px;
@@ -212,7 +211,7 @@ body:before {
   margin-left: var(--margin-left);
   margin-right: var(--margin-right);
   display: var(--display);
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: var(--align-items);
   background-color: var(--background-color);
   padding: 20px 0;
@@ -224,7 +223,7 @@ body:before {
 }
 
 .logo {
-  width: 50%;
+  width: 100%;
   position: relative;
   z-index: 99;
   margin-left: 20px;
