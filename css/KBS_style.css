@@ -637,6 +637,12 @@ body:before {
   -o-border-radius: 50px;
 }
 
+@media screen and (max-width: 500px) {
+  .hs__wrapper {
+    padding: 16px 0;
+  }
+}
+
 /* ---------------------------------------------------- */
 
 /* footer */
