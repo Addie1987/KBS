@@ -190,7 +190,7 @@ body:before {
   height: 100%;
   display: inline-block;
   position: absolute;
-  top: -70px;
+  top: 0;
   left: 0;
   opacity: .5;
   background: url(../images/basemap.png) center;
