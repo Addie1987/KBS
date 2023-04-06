@@ -417,6 +417,10 @@ body:before {
 }
 
 @media screen and (max-width: 500px) {
+  .header_rwd_game {
+    margin-right: 0;
+  }
+
   .header_rwd_game_content {
     display: flex;
     justify-content: center;
