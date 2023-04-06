@@ -219,6 +219,11 @@ body:before {
   padding: 20px 0;
 }
 
+.replace {
+  position: fixed;
+  width: 100%;
+}
+
 .logo {
   width: 100%;
   position: relative;
@@ -292,6 +297,14 @@ body:before {
 }
 
 @media screen and (max-width: 500px) {
+  .header_content {
+    padding: 12px 0;
+  }
+
+  .header_buttom {
+    padding: 10px 0;
+  }
+
   .header_buttom_content {
     flex-wrap: var(--flex-wrap);
     justify-content: var(--justify-content);
@@ -300,7 +313,7 @@ body:before {
    .header_buttom_content .header_rwd_teaching {
     margin-right: 0;
     margin-left: 0;
-    width: 80%;
+    width: 60%;
   }
 
   .header_rwd_game {
@@ -310,7 +323,6 @@ body:before {
 
   .logo_content {
     flex-wrap: var(--flex-wrap);
-    line-height: 2;
   }
 
   .logo {
@@ -321,8 +333,14 @@ body:before {
     text-align: center;
   }
 
+  .logo_img_content a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .logo_img_content a img {
-    width: 50%;
+    width: 30%;
   }
 
   .logo_img {
@@ -332,7 +350,14 @@ body:before {
   .download {
     margin-left: 0;
     margin-right: 0;
-    width: 80%;
+    width: 60%;
+    padding: 0 0 6px 0;
+  }
+
+  .download_content a {
+    display: flex;
+    align-items: center;
+    justify-content: centers;
   }
 
   .download_content a img {
@@ -389,6 +414,26 @@ body:before {
 .header_rwd_game_content a img {
   width: 100%;
   height: auto;
+}
+
+@media screen and (max-width: 500px) {
+  .header_rwd_game_content {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header_rwd_game_content a {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header_rwd_teaching_content a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 /* ---------------------------------------------------- */
