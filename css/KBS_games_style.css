@@ -375,7 +375,6 @@ body:before {
   max-width: var(--max-width);
   margin-left: var(--margin-left);
   margin-right: var(--margin-right);
-  padding: 0 0 100px 0;
 }
 
 /* notice */
