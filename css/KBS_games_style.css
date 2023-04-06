@@ -190,9 +190,9 @@ body:before {
   position: absolute;
   top: -70px;
   left: 0;
-  opacity: .6;
-  background: url(../images/basemap.png);
-  background-size: auto;
+  opacity: .5;
+  background: url(../images/basemap.png) center;
+  background-size: contain;
 }
 
 /* ---------------------------------------------------- */
