@@ -571,7 +571,7 @@ body:before {
 }
 
 .more_content a:hover {
-  background-color: #f0cd4d;
+  background-color: var(--background-color);
   color: #000;
 }
 
@@ -651,7 +651,7 @@ body:before {
 }
 
 .activity_more_content a:hover {
-  background-color: #f0cd4d;
+  background-color: var(--background-color);
   color: #000;
 }
 
@@ -728,7 +728,7 @@ body:before {
   display: var(--display);
   justify-content: var(--justify-content);
   flex-wrap: var(--flex-wrap);
-  background-color: #f0cd4d;
+  background-color: var(--background-color);
   padding: 20px;
   border-radius: 30px;
   -webkit-border-radius: 30px;
@@ -818,3 +818,46 @@ body:before {
     width: 100%;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
