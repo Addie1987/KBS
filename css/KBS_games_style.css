@@ -779,6 +779,15 @@ body:before {
 
   .best-responsive-tab.lgTabToggle-tab-responsive-active>.best-reponsive-tab-item>.best-reponsive-tab-item-trigger {
     padding: 0;
+    background-color: #000;
+    display: var(--display);
+    align-items: var(--align-items);
+    justify-content: var(--justify-content);
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
   }
 
   .best-responsive-tab.lgTabToggle-tab-responsive-active>.best-reponsive-tab-item>.best-reponsive-tab-item-trigger.lgTabToggle-tab-active,
@@ -817,5 +826,11 @@ body:before {
 
   .best-responsive-tab.init, .best-responsive-tab-contents.init {
     margin: 60px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 302px) {
+  .col-md-3 {
+    width: 100%;
   }
 }
