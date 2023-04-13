@@ -768,7 +768,7 @@ body:before {
 
 @media screen and (max-width: 767px) {
   .best-reponsive-tab-item{
-    width: 90%;
+    width: 100%;
     margin-bottom: 16px;
   }
 
