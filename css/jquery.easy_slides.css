@@ -576,7 +576,7 @@
     height: 50px !important;
     background: #f0cd4d !important;
     opacity: .4 !important;
-    z-index: 9999999999999999999 !important;
+    z-index: 999999999 !important;
     cursor: pointer;
     text-align: center;
     line-height: 30px;
