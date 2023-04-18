@@ -1,1 +1,1 @@
-https://addie1987.github.io/KBS/games.html
+https://addie1987.github.io/KBS/index.html
