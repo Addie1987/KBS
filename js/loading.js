@@ -1,3 +1,3 @@
 $('.js-preloader').preloadinator({
-    minTime: 3000
+    minTime: 4000
 });
