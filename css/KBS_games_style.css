@@ -718,10 +718,10 @@ section a:hover {
   padding: 20px 0;
 }
 
-.replace {
+/* .replace {
   position: fixed;
   width: 100%;
-}
+} */
 
 .logo {
   width: 100%;
@@ -739,6 +739,7 @@ section a:hover {
 
 .logo_img {
   position: relative;
+  width: 30%;
 }
 
 .logo_img_content {
@@ -761,24 +762,6 @@ section a:hover {
 .header_buttom_content {
   margin: 0 auto;
   display: var(--display);
-}
-
-.download {
-  position: relative;
-  margin-left: 20px;
-}
-
-.download_content {
-  margin: 0 auto;
-}
-
-.download_content a {
-  display: inline-block;
-}
-
-.download_content a img {
-  width: 100%;
-  height: auto;
 }
 
 @media screen and (max-width: 720px) {
@@ -809,7 +792,7 @@ section a:hover {
     justify-content: var(--justify-content);
   }
 
-  .header_buttom_content .header_rwd_teaching {
+  .header_rwd_teaching {
     margin-right: 0;
     margin-left: 0;
     width: 60%;
@@ -838,19 +821,67 @@ section a:hover {
     justify-content: center;
   }
 
-  .logo_img_content a img {
-    width: 30%;
-  }
+}
 
-  .logo_img {
-    width: 100%;
-  }
+/* ---------------------------------------------------- */
 
+/* download */
+.download {
+  position: relative;
+  padding: 30px 0;
+}
+
+.download_content {
+  margin: 0 auto;
+  max-width: var(--max-width);
+  display: var(--display);
+  flex-wrap: var(--flex-wrap);
+  justify-content: var(--justify-content);
+}
+
+.androidapp {
+  position: relative;
+  width: 40%;
+  padding: 10px;
+}
+
+.androidapp_content {
+  margin: 0 auto;
+}
+
+.androidapp_content a {
+  display: inline-block;
+}
+
+.androidapp_content a img {
+  width: 100%;
+  height: auto;
+}
+
+.teaching {
+  position: relative;
+  width: 40%;
+  padding: 10px;
+}
+
+.teaching_content {
+  margin: 0 auto;
+}
+
+.teaching_content a {
+  display: inline-block;
+}
+
+.teaching_content a img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 767px) {
   .download {
     margin-left: 0;
     margin-right: 0;
-    width: 60%;
-    padding: 0 0 6px 0;
+    width: 100%;
   }
 
   .download_content a {
@@ -863,6 +894,13 @@ section a:hover {
     width: 100%;
   }
 
+  .androidapp {
+    width: 80%;
+  }
+
+  .teaching {
+    width: 80%;
+  }
 }
 
 /* ---------------------------------------------------- */
@@ -1078,42 +1116,9 @@ section a:hover {
   }
 }
 
+/* ---------------------------------------------------- */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* tab */
 .best-responsive-tab,
 .best-responsive-tab * {
   box-sizing: border-box
@@ -1186,7 +1191,7 @@ section a:hover {
   display: var(--display);
   flex-wrap: var(--flex-wrap);
   justify-content: var(--justify-content);
-  padding: 60px 0;
+  padding: 0 0 20px 0;
 }
 
 .best-responsive-tab:not(.lgTabToggle-tab-responsive-active)>.best-reponsive-tab-item>.best-reponsive-tab-item-trigger {
@@ -1323,10 +1328,6 @@ section a:hover {
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     -o-border-radius: 0;
-  }
-
-  .best-responsive-tab.init, .best-responsive-tab-contents.init {
-    margin: 60px 0 0 0;
   }
 }
 
